@@ -1,16 +1,10 @@
-/* a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,main,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}[hidden]{display:none}body{line-height:1}menu,ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}table{border-collapse:collapse;border-spacing:0} */
-
-html, head {
-    background: #f9e4d0;
+html, head {    
     font-family: sans-serif;
-    /* border: 10px solid #222; */
-    height: 100%;
-    /* max-height: 100vh; */
 }
 
 body {
     margin: 0;
-    height: 100%;
+    background: #f9e4d0;
 }
 
 a {
@@ -24,7 +18,7 @@ h5 + p {
 }
 
 p {
-    line-height: 1.3rem;
+    line-height: 1.6;
 }
 
 hr {
@@ -121,3 +115,11 @@ li h5 {
     left: 80%;
 }
 
+
+
+@media only screen and (min-width: 600px) {
+    body {
+        background: #01242e;
+        color: #fff
+    }
+  }
